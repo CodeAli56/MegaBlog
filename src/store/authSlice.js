@@ -23,11 +23,3 @@ const authSlice = createSlice({
 export const {login, logout} = authSlice.actions;
 
 export const authReducer =  authSlice.reducer;
-
-
-const oneUser = {
-    $id: '666da2c500368541e307',
-    email:"one@one.com",
-    status:true,
-    name:"oneuser",
-}
